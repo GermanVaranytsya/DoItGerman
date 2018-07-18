@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/simple_webpack_boilerplate-master.iml" filepath="$PROJECT_DIR$/.idea/simple_webpack_boilerplate-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/germanDoIt.iml" filepath="$PROJECT_DIR$/.idea/germanDoIt.iml" />
     </modules>
   </component>
 </project>

@@ -17,13 +17,26 @@ module.exports = {
       },
       {
         test: /\.less$/,
-          use: [{
-              loader: 'style-loader'
-          }, {
-              loader: 'css-loader'
-          }, {
-              loader: 'less-loader'
-          }]
+        use: [
+          {
+            loader: "style-loader"
+          },
+          {
+            loader: "css-loader"
+          },
+          {
+            loader: "less-loader"
+          }
+        ]
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {}
+          }
+        ]
       }
     ]
   },

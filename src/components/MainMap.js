@@ -16,7 +16,7 @@ class MainMap extends Component {
     this.onClick = this.onClick.bind(this);
   }
 
-  onClick(t, map, coord) {
+  onClick(t, ma1p, coord) {
     const { latLng } = coord;
     const lat = latLng.lat();
     const lng = latLng.lng();
@@ -43,7 +43,10 @@ class MainMap extends Component {
           style={{ width: "80%", margin: "auto" }}
           className={"map"}
           zoom={12}
-          initialCenter={initMap()}
+          initialCenter={{
+              lat: 46.475665,
+              lng: 30.759424
+          }}
           onClick={this.onClick}
         >
           {this.state.markers.map((marker, index) => (

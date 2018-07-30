@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "react project",
   "main": "src/index.js",
-  "repository": "https://github.com/GermanVaranytsya/DoItGerman",
+  "repository": "https://github.com/GermanVaranytsya/GoogleMaps-with-react",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
   },
   "author": "German Varanytsya",
   "license": "ISC",

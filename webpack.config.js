@@ -6,10 +6,10 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
-    devServer: {
-        inline:true,
-        port: 3000
-    },
+    // devServer: {
+    //     inline:true,
+    //     port: 3000
+    // },
   module: {
     rules: [
       {
